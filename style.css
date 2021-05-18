@@ -1,0 +1,35 @@
+body {
+  text-align: center;
+  color: rgb(23, 21, 145);
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+button {
+  border: solid 3px rgb(23, 21, 145);
+  color: rgb(23, 21, 145);
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.grid {
+  width: 200px;
+  height: 200px;
+  border: solid 3px rgb(23, 21, 145);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square {
+  width: 20px;
+  height: 20px;
+}
+
+.snake {
+  background-color: green;
+}
+
+.apple {
+  background-color: red;
+}
